@@ -1,0 +1,26 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jest": "^29.12.1",
+    "globals": "^17.1.0",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
